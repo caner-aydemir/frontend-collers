@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.triangle-container {
+  position: relative;
+  width: 100%;
+  /* Div'in genişliği */
+  height: calc(100vh - 96px);
+  /* Div'in yüksekliği */
+  overflow: hidden;
+  /* Taşan içeriği gizlemek için */
+}
+
+.triangle-container::before,
+.triangle-container::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  /* Üçgeni oluşturmak için */
+}
+
+.triangle-container::before {
+  background-color: #FFFBEB;
+  /* Sol alt köşede kalan üçgen */
+  clip-path: polygon(0 100%, 100% 0, 0 0);
+  /* Sol alt köşeden sağ üst köşeye üçgen */
+}
+
+.triangle-container::after {
+  background-color: #FEF3C7;
+  /* Sağ üst köşede kalan üçgen */
+  clip-path: polygon(0 100%, 100% 0, 100% 100%);
+  /* Sağ üst köşeden sağ alt köşeye üçgen */
+}
