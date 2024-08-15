@@ -1,6 +1,6 @@
 # Collers Web Sitesi Arayüz Çalışması
 
-Uygulamanın dağıtılmış versiyonunu [Collers Web Sites](https://github.com/facebook/create-react-app) adresinden ziyaret edebilirsiniz.
+Uygulamanın dağıtılmış versiyonunu [Collers Web Sites](https://frontend-collers.vercel.app) adresinden ziyaret edebilirsiniz.
  
 
 ## Özellikler
