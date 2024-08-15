@@ -10,7 +10,7 @@ const Section6 = () => {
                     <p className='  text-8xl xs:text-5xl font-extrabold'>11,658,467</p>
                     <p className='text-4xl xs:text- font-extrabold font-roboto abs'>Shoes Collected</p>
                 </div>
-                <div className='flex flex-col absolute z-10 top-32 left-80 xs:left-16'>
+                <div className='flex flex-col absolute z-10 top-16 left-80 xs:left-16'>
                     <img className='xs:w-[256px] xs:h-[200px]' src={shoes6} alt="" />
                 </div>
                 <img src={map} alt="" className='absolute flex mx-auto  ' />
